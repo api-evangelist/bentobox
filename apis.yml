@@ -1,0 +1,52 @@
+aid: bentobox
+name: BentoBox
+description: >-
+  BentoBox is a restaurant marketing and commerce platform, part of Fiserv, that
+  powers restaurant websites, online ordering, takeout and delivery, events,
+  reservations, and digital presence for thousands of hospitality brands. While
+  BentoBox runs a Technology Partners program and connects to 50+ third-party
+  services across POS, reservations, delivery, payments, marketing, and
+  shipping, it does not publish a public self-service developer API or API
+  reference. Integrations are built through partnership rather than open
+  documentation, and prospective technology partners are directed to contact the
+  BentoBox partnerships team to integrate with the platform. As a Fiserv
+  company, payments and commerce flows connect through Clover and Fiserv rails.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Restaurant
+  - Online Ordering
+  - Websites
+  - Commerce
+  - Integrations
+  - Payments
+url: https://raw.githubusercontent.com/api-evangelist/bentobox/refs/heads/main/apis.yml
+created: '2026-06-02'
+modified: '2026-06-02'
+specificationVersion: '0.19'
+apis:
+  - aid: bentobox:integrations
+    name: BentoBox Integrations & Technology Partners
+    description: >-
+      BentoBox does not offer a public self-service developer API. Instead it
+      runs a Technology Partners program and supports 50+ integrations across
+      POS, reservations, online ordering, delivery, payments, marketing, and
+      shipping. Technical integrations are established through partnership with
+      the BentoBox team rather than via open API documentation.
+    humanURL: https://www.getbento.com/products/integrations/
+    tags:
+      - Integrations
+      - Partners
+    properties:
+      - type: Documentation
+        url: https://www.getbento.com/technology-partners/
+common:
+  - type: Website
+    url: https://www.getbento.com/
+  - type: Support
+    url: https://help.getbento.com/en/
+  - type: Blog
+    url: https://www.getbento.com/blog/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

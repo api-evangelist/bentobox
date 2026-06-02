@@ -12,6 +12,7 @@ description: >-
   BentoBox partnerships team to integrate with the platform. As a Fiserv
   company, payments and commerce flows connect through Clover and Fiserv rails.
 type: Index
+x-type: company
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Restaurant
@@ -20,6 +21,9 @@ tags:
   - Commerce
   - Integrations
   - Payments
+  - Reservations
+  - Delivery
+  - Hospitality
 url: https://raw.githubusercontent.com/api-evangelist/bentobox/refs/heads/main/apis.yml
 created: '2026-06-02'
 modified: '2026-06-02'
@@ -40,6 +44,12 @@ apis:
     properties:
       - type: Documentation
         url: https://www.getbento.com/technology-partners/
+      - type: Documentation
+        title: Integrations Overview
+        url: https://www.getbento.com/products/integrations/
+      - type: Documentation
+        title: Partnerships
+        url: https://www.getbento.com/partnerships-3/
 common:
   - type: Website
     url: https://www.getbento.com/
@@ -47,6 +57,49 @@ common:
     url: https://help.getbento.com/en/
   - type: Blog
     url: https://www.getbento.com/blog/
+  - type: GitHubOrganization
+    url: https://github.com/getbento
+  - type: Tools
+    title: BentoDev Local Theme Editor
+    url: https://github.com/getbento/bentodev
+  - type: SDK
+    title: BentoDev (PyPI)
+    url: https://pypi.org/project/bentodev/
+  - type: Tools
+    title: BentoBox.js Site Library
+    url: https://github.com/getbento/bentoboxjs
+integrations:
+  - name: Clover
+    description: >-
+      POS integration with Clover (a Fiserv company) for menu, ordering, and
+      payment synchronization.
+  - name: Square for Restaurants
+    description: >-
+      POS and payments integration syncing menus and orders with Square.
+  - name: OpenTable
+    description: Reservations integration surfacing OpenTable booking on BentoBox sites.
+  - name: Resy
+    description: Reservations integration connecting Resy booking to BentoBox sites.
+  - name: SevenRooms
+    description: Reservation and guest-management integration with SevenRooms.
+  - name: DoorDash
+    description: On-demand delivery and dispatch integration for online orders.
+  - name: Stripe
+    description: Payment processing integration for online ordering and commerce.
+  - name: Google Pay
+    description: Digital wallet checkout integration for faster online ordering.
+  - name: Mailchimp
+    description: Email-marketing integration syncing diner contacts and campaigns.
+  - name: Constant Contact
+    description: Email-marketing integration for restaurant audience engagement.
+  - name: ShipStation
+    description: Shipping/fulfillment integration for merchandise and shippable goods.
+  - name: Shippo
+    description: Multi-carrier shipping integration for ecommerce fulfillment.
+  - name: Google Analytics
+    description: Web analytics integration for traffic and conversion measurement.
+  - name: Meta for Business
+    description: Facebook and Instagram integration for social presence and ads.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

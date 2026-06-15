@@ -1,0 +1,18 @@
+{
+  "repo": "bentobox",
+  "feeds": [
+    {
+      "source": "https://www.getbento.com/blog/",
+      "feed_url": "https://www.getbento.com/blog/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://help.getbento.com/en/",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
+}

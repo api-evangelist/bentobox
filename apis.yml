@@ -62,7 +62,7 @@ common:
   - type: Tools
     title: BentoDev Local Theme Editor
     url: https://github.com/getbento/bentodev
-  - type: SDK
+  - type: SDKs
     title: BentoDev (PyPI)
     url: https://pypi.org/project/bentodev/
   - type: Tools

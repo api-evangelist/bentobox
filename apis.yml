@@ -51,6 +51,8 @@ apis:
         title: Partnerships
         url: https://www.getbento.com/partnerships-3/
 common:
+  - type: DomainSecurity
+    url: security/bentobox-domain-security.yml
   - type: Website
     url: https://www.getbento.com/
   - type: Support

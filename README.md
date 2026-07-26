@@ -17,11 +17,6 @@ BentoBox is a restaurant marketing and commerce platform, part of Fiserv, that p
 
 ## APIs
 
-### BentoBox Integrations & Technology Partners
-
-BentoBox does not offer a public self-service developer API. Instead it runs a Technology Partners program and supports 50+ integrations across POS, reservations, online ordering, delivery, payments, marketing, and shipping. Technical integrations are established through partnership with the BentoBox team rather than via open API documentation.
-
-**Human URL:** [https://www.getbento.com/products/integrations/](https://www.getbento.com/products/integrations/)
 
 #### Tags:
 

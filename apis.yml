@@ -13,7 +13,18 @@ description: >-
   company, payments and commerce flows connect through Clover and Fiserv rails.
 type: Index
 x-type: company
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bentobox.png
 tags:
   - Restaurant
   - Online Ordering
@@ -26,30 +37,9 @@ tags:
   - Hospitality
 url: https://raw.githubusercontent.com/api-evangelist/bentobox/refs/heads/main/apis.yml
 created: '2026-06-02'
-modified: '2026-06-02'
+modified: '2026-07-25'
 specificationVersion: '0.19'
-apis:
-  - aid: bentobox:integrations
-    name: BentoBox Integrations & Technology Partners
-    description: >-
-      BentoBox does not offer a public self-service developer API. Instead it
-      runs a Technology Partners program and supports 50+ integrations across
-      POS, reservations, online ordering, delivery, payments, marketing, and
-      shipping. Technical integrations are established through partnership with
-      the BentoBox team rather than via open API documentation.
-    humanURL: https://www.getbento.com/products/integrations/
-    tags:
-      - Integrations
-      - Partners
-    properties:
-      - type: Documentation
-        url: https://www.getbento.com/technology-partners/
-      - type: Documentation
-        title: Integrations Overview
-        url: https://www.getbento.com/products/integrations/
-      - type: Documentation
-        title: Partnerships
-        url: https://www.getbento.com/partnerships-3/
+apis: []
 common:
   - type: DomainSecurity
     url: security/bentobox-domain-security.yml
@@ -70,6 +60,8 @@ common:
   - type: Tools
     title: BentoBox.js Site Library
     url: https://github.com/getbento/bentoboxjs
+  - type: ProductPage
+    url: https://www.getbento.com/products/integrations/
 integrations:
   - name: Clover
     description: >-

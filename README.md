@@ -1,4 +1,4 @@
-# BentoBox (bentobox)
+# BentoBox
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,63 +66,80 @@
 
 BentoBox is a restaurant marketing and commerce platform, part of Fiserv, that powers restaurant websites, online ordering, takeout and delivery, events, reservations, and digital presence for thousands of hospitality brands. While BentoBox runs a Technology Partners program and connects to 50+ third-party services across POS, reservations, delivery, payments, marketing, and shipping, it does not publish a public self-service developer API or API reference. Integrations are built through partnership rather than open documentation, and prospective technology partners are directed to contact the BentoBox partnerships team to integrate with the platform. As a Fiserv company, payments and commerce flows connect through Clover and Fiserv rails.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/bentobox/refs/heads/main/apis.yml)
+**Areas:** Restaurant · Online Ordering · Websites · Commerce · Integration · Payments · Reservations · Delivery · Hospitality
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## BentoBox on APIs.io
 
-## Tags:
+Everything profiled for BentoBox is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/bentobox/](https://apis.io/providers/bentobox/)** — or go straight to one of the APIs or properties below.
 
- - Restaurant, Online Ordering, Websites, Commerce, Integrations, Payments, Reservations, Delivery, Hospitality
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-06-02
-- **Modified:** 2026-06-02
+#### Security (1)
 
-## APIs
+Authentication, trust centre, and vulnerability disclosure.
 
+- [Bentobox Domain Security](https://apis.io/security/bentobox/bentobox-domain-security/)
 
-#### Tags:
+## Where to find this API
 
- - Integrations, Partners
-
-#### Properties
-
-- [Documentation](https://www.getbento.com/technology-partners/)
-- [Integrations Overview](https://www.getbento.com/products/integrations/)
-- [Partnerships](https://www.getbento.com/partnerships-3/)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.getbento.com/)
 - [Support](https://help.getbento.com/en/)
 - [Blog](https://www.getbento.com/blog/)
-- [GitHubOrganization](https://github.com/getbento)
-- [BentoDev Local Theme Editor](https://github.com/getbento/bentodev)
-- [BentoDev (PyPI)](https://pypi.org/project/bentodev/)
-- [BentoBox.js Site Library](https://github.com/getbento/bentoboxjs)
+- [GitHub](https://github.com/getbento)
 
-## Integrations
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Clover | POS integration with Clover (a Fiserv company) for menu, ordering, and payment synchronization. |
-| Square for Restaurants | POS and payments integration syncing menus and orders with Square. |
-| OpenTable | Reservations integration surfacing OpenTable booking on BentoBox sites. |
-| Resy | Reservations integration connecting Resy booking to BentoBox sites. |
-| SevenRooms | Reservation and guest-management integration with SevenRooms. |
-| DoorDash | On-demand delivery and dispatch integration for online orders. |
-| Stripe | Payment processing integration for online ordering and commerce. |
-| Google Pay | Digital wallet checkout integration for faster online ordering. |
-| Mailchimp | Email-marketing integration syncing diner contacts and campaigns. |
-| Constant Contact | Email-marketing integration for restaurant audience engagement. |
-| ShipStation | Shipping/fulfillment integration for merchandise and shippable goods. |
-| Shippo | Multi-carrier shipping integration for ecommerce fulfillment. |
-| Google Analytics | Web analytics integration for traffic and conversion measurement. |
-| Meta for Business | Facebook and Instagram integration for social presence and ads. |
+**Kin Score 5.9** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Maintainers
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 0.0 |
 
-**FN:** Kin Lane
+**Agent readiness 0.0** — human-only
 
-**Email:** kin@apievangelist.com
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.4** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/bentobox/](https://apis.io/providers/bentobox/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for BentoBox: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/bentobox/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
